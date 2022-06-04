@@ -1,14 +1,12 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "hiknot.net",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "hiknot.net",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "hiknot",
   "dependencies": {
     "gatsby": "^4.15.1",
+    "gatsby-cli": "^4.15.1",
     "gatsby-plugin-feed": "^4.15.0",
     "gatsby-plugin-gatsby-cloud": "^4.15.0",
     "gatsby-plugin-google-analytics": "^4.15.0",
@@ -39,10 +37,10 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/hiknot/hiknot.net.git"
   },
   "scripts": {
     "build": "gatsby build",
