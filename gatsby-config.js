@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `hiknot.net`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `hiknot`,
+      summary: `engineer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `技術ブログ`,
+    siteUrl: `https://hiknot.net`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `hiknot18`,
     },
   },
   plugins: [
