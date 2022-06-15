@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://hiknot.net`,
     social: {
       twitter: `hiknot18`,
+      github: `hiknot`,
     },
   },
   plugins: [
