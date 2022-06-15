@@ -1,6 +1,8 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+const SLUG_SEPARATOR = '__'
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
@@ -58,16 +60,21 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+const getSlug = (path) => {
+  const [prefix, slug] = path.split(SLUG_SEPARATOR)
+  return slug || path
+}
 
+exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const { createNodeField } = actions
+    const filePath = createFilePath({ node, getNode, trailingSlash: false })
+    const slug = getSlug(filePath)
 
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `/entry/${slug}`,
     })
   }
 }
