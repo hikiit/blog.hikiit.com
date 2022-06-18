@@ -48,7 +48,7 @@ module.exports = {
             resolve: "gatsby-remark-embed-gist",
             options: {
               username: "hiknot",
-            }
+            },
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
@@ -61,9 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-0TBHNH05HL",
-        ],
+        trackingIds: ["G-0TBHNH05HL"],
       },
     },
     {
