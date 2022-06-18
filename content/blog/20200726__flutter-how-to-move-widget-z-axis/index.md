@@ -18,7 +18,7 @@ floatingActionButton: FloatingActionButton(
 「マテリアルデザインでは z 軸方向が存在し、パーツとパーツの物理的な重なり合いでデザインされる」  
 といった話はよく聞くと思いますが、elevation はその z 軸を示します。
 
-### 例
+## 例
 
 わかりやすくするため、2 つ並んだ RaisedButton があるとします。elevation は指定していないので初期値です。
 
