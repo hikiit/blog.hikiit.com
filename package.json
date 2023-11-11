@@ -1,7 +1,7 @@
 {
-  "name": "hikiit.dev",
+  "name": "hikiit.net",
   "private": true,
-  "description": "hikiit.dev",
+  "description": "hikiit.net",
   "version": "0.1.0",
   "author": "hikiit",
   "dependencies": {
@@ -46,7 +46,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hikiit/hikiit.dev.git"
+    "url": "git+https://github.com/hikiit/hikiit.net.git"
   },
   "scripts": {
     "build": "gatsby build",
