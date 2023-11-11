@@ -6,7 +6,7 @@ tags: ["Flutter"]
 
 ## 1 年と 5 ヶ月
 
-個人で開発を進めている馬券の収支管理アプリ「HistBet」ですが、いつの間にかリリースして 1 年と 5 ヶ月ほど経過していました。  
+個人で開発を進めている馬券の収支管理アプリ「HistBet」、いつの間にかリリースして 1 年と 5 ヶ月ほど経過していました。  
 [App Store](https://apps.apple.com/jp/app/histbet/id1535460208) / [Google Play Store](https://play.google.com/store/apps/details?id=app.histbet)
 
 おかげさまで週末には 100 人以上の方に利用していただいており、サブスクへ登録してくださる方も徐々に増えてきました。  
