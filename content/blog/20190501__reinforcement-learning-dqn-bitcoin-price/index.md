@@ -124,7 +124,7 @@ AWS アカウントについての詳細は割愛しますが、インスタン�
 とにかく改変 & 改変で作ったので、色々と非効率だったりすると思います。
 
 整備できてなくてお恥ずかしいですが、GitHub ならこちら。  
-[github.com](https://github.com/hiknot/DQNBot)
+[github.com](https://github.com/hikiit/DQNBot)
 
 ### DQNBot
 

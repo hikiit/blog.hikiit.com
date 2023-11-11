@@ -163,7 +163,7 @@ class _MyImageCachednetworkPageState extends State<MyImageCachednetworkPage> {
 ```
 
 プロジェクトの全体像は GitHub に載せています。  
-[https://github.com/hiknot/flutter-samples/tree/master/flutter_image](https://github.com/hiknot/flutter-samples/tree/master/flutter_image)
+[https://github.com/hikiit/flutter-samples/tree/master/flutter_image](https://github.com/hikiit/flutter-samples/tree/master/flutter_image)
 
 ## 参考にさせていただいたサイト
 

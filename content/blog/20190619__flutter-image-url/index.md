@@ -50,7 +50,7 @@ class _MyImagePageState extends State<MyImagePage> {
 
 プロジェクトの全体像は GitHub に載せています。
 
-https://github.com/hiknot/flutter-samples/tree/master/flutter_image
+https://github.com/hikiit/flutter-samples/tree/master/flutter_image
 
 ## 公式リファレンス
 

@@ -71,7 +71,7 @@ sudo /home/pi/.pyenv/shims/python /home/pi/foo.py
 
 こんな感じです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ラズパイ+TB6643KQ+24V電源でファンを操作 <a href="https://t.co/N8iDTqQ52N">pic.twitter.com/N8iDTqQ52N</a></p>&mdash; hiknot (@hiknot18) <a href="https://twitter.com/hiknot18/status/874234462057373697?ref_src=twsrc%5Etfw">June 12, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ラズパイ+TB6643KQ+24V電源でファンを操作 <a href="https://t.co/N8iDTqQ52N">pic.twitter.com/N8iDTqQ52N</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/874234462057373697?ref_src=twsrc%5Etfw">June 12, 2017</a></blockquote>
 
 こうやって使えばラズパイも夏を乗り切れる。
 

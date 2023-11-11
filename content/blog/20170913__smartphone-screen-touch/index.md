@@ -22,6 +22,6 @@ tags: ["Arduino"]
 
 こんな感じになります。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">スマホにタッチしてくれる奴<a href="https://twitter.com/hashtag/%E3%83%AA%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%83%E3%83%81%E3%83%9C%E3%83%BC%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#リレータッチボード</a> <a href="https://t.co/jCuWG47N4x">pic.twitter.com/jCuWG47N4x</a></p>&mdash; hiknot (@hiknot18) <a href="https://twitter.com/hiknot18/status/900008765650460672?ref_src=twsrc%5Etfw">August 22, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">スマホにタッチしてくれる奴<a href="https://twitter.com/hashtag/%E3%83%AA%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%83%E3%83%81%E3%83%9C%E3%83%BC%E3%83%89?src=hash&amp;ref_src=twsrc%5Etfw">#リレータッチボード</a> <a href="https://t.co/jCuWG47N4x">pic.twitter.com/jCuWG47N4x</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/900008765650460672?ref_src=twsrc%5Etfw">August 22, 2017</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ティッシュとかを挟まないと誤タップ？ になる。<br>両面テープとか良さげだと思う。</p>&mdash; hiknot (@hiknot18) <a href="https://twitter.com/hiknot18/status/900009413494267909?ref_src=twsrc%5Etfw">August 22, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ティッシュとかを挟まないと誤タップ？ になる。<br>両面テープとか良さげだと思う。</p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/900009413494267909?ref_src=twsrc%5Etfw">August 22, 2017</a></blockquote>

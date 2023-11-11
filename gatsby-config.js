@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `hiknot.net`,
+    title: `hikiit.dev`,
     author: {
-      name: `hiknot`,
+      name: `hikiit`,
       summary: `engineer`,
     },
     description: `技術ブログ`,
-    siteUrl: `https://hiknot.net`,
+    siteUrl: `https://hikiit.dev`,
     social: {
-      twitter: `hiknot18`,
-      github: `hiknot`,
+      twitter: `hikiitt`,
+      github: `hikiit`,
     },
   },
   plugins: [
@@ -47,7 +47,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-embed-gist",
             options: {
-              username: "hiknot",
+              username: "hikiit",
             },
           },
           `gatsby-remark-prismjs`,

@@ -43,7 +43,7 @@ ble.updateCharacteristicValue(characteristic2.getValueAttribute().getHandle(), r
 ```
 
 全体は GitHub を参照してください。  
-[https://github.com/hiknot/rw_blenano](https://github.com/hiknot/rw_blenano)[github.com](https://github.com/hiknot/rw_blenano)
+[https://github.com/hikiit/rw_blenano](https://github.com/hikiit/rw_blenano)[github.com](https://github.com/hikiit/rw_blenano)
 
 ### ブラウザ側の実装(html + javascript)
 
@@ -58,7 +58,7 @@ GATT とは BLE 通信を行う際の共通の形式です。これによって�
 Cloud9 でコード書いてファイルを public にすれば、自動的に ssl 通信の環境になるので楽です。
 
 全体は GitHub を参照してください。  
-[https://github.com/hiknot/rw_message](https://github.com/hiknot/rw_message)[github.com](https://github.com/hiknot/rw_message)
+[https://github.com/hikiit/rw_message](https://github.com/hikiit/rw_message)[github.com](https://github.com/hikiit/rw_message)
 
 #### requestDevice
 
@@ -168,7 +168,7 @@ MacBook+Chrome と Android+Chrome では動くのを確認しました。
 
 こんな感じに動きます。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WebBluetoothAPIとBLE Nanoでボトルメッセージ的な通信 <a href="https://twitter.com/hashtag/WebBluetooth?src=hash&amp;ref_src=twsrc%5Etfw">#WebBluetooth</a> <a href="https://twitter.com/hashtag/BLENano?src=hash&amp;ref_src=twsrc%5Etfw">#BLENano</a> <a href="https://t.co/rDelL9n34x">pic.twitter.com/rDelL9n34x</a></p>&mdash; hiknot (@hiknot18) <a href="https://twitter.com/hiknot18/status/916957795835977728?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WebBluetoothAPIとBLE Nanoでボトルメッセージ的な通信 <a href="https://twitter.com/hashtag/WebBluetooth?src=hash&amp;ref_src=twsrc%5Etfw">#WebBluetooth</a> <a href="https://twitter.com/hashtag/BLENano?src=hash&amp;ref_src=twsrc%5Etfw">#BLENano</a> <a href="https://t.co/rDelL9n34x">pic.twitter.com/rDelL9n34x</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/916957795835977728?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
 
 ## 可能性
 
