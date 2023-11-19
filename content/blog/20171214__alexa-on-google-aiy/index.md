@@ -191,7 +191,7 @@ Okay 押したら "セキュリティプロファイルを渡すよ" と表示�
 
 マイクのアイコンをクリックして話しかけると、、、しゃべるぞ。
 
-<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Alexa on GoogleAIY <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://twitter.com/hashtag/Alexa?src=hash&amp;ref_src=twsrc%5Etfw">#Alexa</a> <a href="https://t.co/BgMiWwZH1l">pic.twitter.com/BgMiWwZH1l</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/938785224334352384?ref_src=twsrc%5Etfw">December 7, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Alexa on GoogleAIY <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://twitter.com/hashtag/Alexa?src=hash&amp;ref_src=twsrc%5Etfw">#Alexa</a> <a href="https://t.co/BgMiWwZH1l">pic.twitter.com/BgMiWwZH1l</a></p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/938785224334352384?ref_src=twsrc%5Etfw">December 7, 2017</a></blockquote>
 
 #### Terminal3
 

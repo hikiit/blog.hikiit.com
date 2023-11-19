@@ -4,7 +4,7 @@ date: "2020-11-19T22:47:17+09:00"
 tags: ["Flutter"]
 ---
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">iOS/Androidアプリ「HistBet」をリリースしました🎉<br><br>競馬の収支を &quot;見やすく&quot; 管理できます！<br><br>月間成績やグラフで振り返ることもできるので、競馬が好きな方はぜひともインストールしてみてください✨<a href="https://t.co/2BvXRWdVD5">https://t.co/2BvXRWdVD5</a><a href="https://t.co/OIuFtrmSC4">https://t.co/OIuFtrmSC4</a> <a href="https://t.co/ziD0KIYhEv">pic.twitter.com/ziD0KIYhEv</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/1325766347100282880?ref_src=twsrc%5Etfw">November 9, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">iOS/Androidアプリ「HistBet」をリリースしました🎉<br><br>競馬の収支を &quot;見やすく&quot; 管理できます！<br><br>月間成績やグラフで振り返ることもできるので、競馬が好きな方はぜひともインストールしてみてください✨<a href="https://t.co/2BvXRWdVD5">https://t.co/2BvXRWdVD5</a><a href="https://t.co/OIuFtrmSC4">https://t.co/OIuFtrmSC4</a> <a href="https://t.co/ziD0KIYhEv">pic.twitter.com/ziD0KIYhEv</a></p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/1325766347100282880?ref_src=twsrc%5Etfw">November 9, 2020</a></blockquote>
 
 個人開発として終業後と土日を利用してコツコツ実装していたモバイルアプリですが、ようやく公開することができました。  
 アプリの目的からして対象ユーザーは限られますが、もし競馬が趣味であればぜひとも試していただきたいです。

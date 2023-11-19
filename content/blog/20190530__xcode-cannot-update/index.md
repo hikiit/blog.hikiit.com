@@ -7,7 +7,7 @@ tags: ["Xcode"]
 Flutter へ入門しようと下記手順に従って設定していた時の話です。  
 [https://flutter.dev/docs/get-started/install/macos](https://flutter.dev/docs/get-started/install/macos)
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Flutter入門しようと思ったらHigh Sierraだったのでアップデートで今日の自由時間終わった。</p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/1133757326891003909?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Flutter入門しようと思ったらHigh Sierraだったのでアップデートで今日の自由時間終わった。</p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/1133757326891003909?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
 
 Xcode がアップデートできませんでした。
 
@@ -34,4 +34,4 @@ Xcode を直接検索すると「開く」ボタンが表示されるが、押�
 検索しても解決策が見つからなかったのですが、  
 `Launchpad` で `option` 押して `Xcode` を削除したところ、App Store で最新 Xcode をインストールできました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ふるーいXcode(v6)入れてたらAppStoreでは開くボタンになっていて、押しても反応しないしアップデートできなかった。<br>Launchpadでoption押して古いXcode消してからAppStore見たらいけた。</p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/1133766773809876992?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ふるーいXcode(v6)入れてたらAppStoreでは開くボタンになっていて、押しても反応しないしアップデートできなかった。<br>Launchpadでoption押して古いXcode消してからAppStore見たらいけた。</p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/1133766773809876992?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>

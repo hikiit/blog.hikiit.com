@@ -8,7 +8,7 @@ module.exports = {
     description: `技術ブログ`,
     siteUrl: `https://hikiit.net`,
     social: {
-      twitter: `hikiitt`,
+      twitter: `hikiit18`,
       github: `hikiit`,
     },
   },

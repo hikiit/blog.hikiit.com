@@ -92,11 +92,11 @@ Google Cloud Platform(GCP)で Google Assistant を有効にする
 
 GCP の設定をする際、冊子の解説と合わせるために言語設定を英語にしておくとわかりやすいのでおすすめです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">テスト音声 <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://t.co/f4E7JhvtBl">pic.twitter.com/f4E7JhvtBl</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/929365857502838784?ref_src=twsrc%5Etfw">November 11, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">テスト音声 <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://t.co/f4E7JhvtBl">pic.twitter.com/f4E7JhvtBl</a></p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/929365857502838784?ref_src=twsrc%5Etfw">November 11, 2017</a></blockquote>
 
 サンプルアプリを起動するとこうなります。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">しゃべったあああ <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://t.co/KJroCMudXi">pic.twitter.com/KJroCMudXi</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/929728969875656704?ref_src=twsrc%5Etfw">November 12, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">しゃべったあああ <a href="https://twitter.com/hashtag/GoogleAIY?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleAIY</a> <a href="https://t.co/KJroCMudXi">pic.twitter.com/KJroCMudXi</a></p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/929728969875656704?ref_src=twsrc%5Etfw">November 12, 2017</a></blockquote>
 
 スマートホーム時代最大の難点は、**成果物をネットにあげる際に自分の声をお披露目しないといけないこと**だと思います。
 

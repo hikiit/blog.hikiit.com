@@ -168,7 +168,7 @@ MacBook+Chrome と Android+Chrome では動くのを確認しました。
 
 こんな感じに動きます。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WebBluetoothAPIとBLE Nanoでボトルメッセージ的な通信 <a href="https://twitter.com/hashtag/WebBluetooth?src=hash&amp;ref_src=twsrc%5Etfw">#WebBluetooth</a> <a href="https://twitter.com/hashtag/BLENano?src=hash&amp;ref_src=twsrc%5Etfw">#BLENano</a> <a href="https://t.co/rDelL9n34x">pic.twitter.com/rDelL9n34x</a></p>&mdash; hikiit (@hikiitt) <a href="https://twitter.com/hikiitt/status/916957795835977728?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WebBluetoothAPIとBLE Nanoでボトルメッセージ的な通信 <a href="https://twitter.com/hashtag/WebBluetooth?src=hash&amp;ref_src=twsrc%5Etfw">#WebBluetooth</a> <a href="https://twitter.com/hashtag/BLENano?src=hash&amp;ref_src=twsrc%5Etfw">#BLENano</a> <a href="https://t.co/rDelL9n34x">pic.twitter.com/rDelL9n34x</a></p>&mdash; hikiit (@hikiit18) <a href="https://twitter.com/hikiit18/status/916957795835977728?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
 
 ## 可能性
 
