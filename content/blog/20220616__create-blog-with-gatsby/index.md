@@ -56,27 +56,27 @@ GitHub で Markdown ファイルを管理して Gatsby Cloud からリポジト�
 ## Gatsby.js + Gatsby Cloud にするためにやったこと
 
 公開リポジトリで運営しているので変更内容は全て下記にあります。  
-https://github.com/hikiit/hikiit.net
+https://github.com/hikiit/hikiit.com
 
 ### gatsby-starter-blog
 
-[96972a](https://github.com/hikiit/hikiit.net/commit/96972a54f2df13fa17f1010ccf8e7567b72ba07e)
+[96972a](https://github.com/hikiit/hikiit.com/commit/96972a54f2df13fa17f1010ccf8e7567b72ba07e)
 
 Gatsby 公式にスターターがあるのでそれを利用します。  
 https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog
 
 ### ブログ名やプロフィール画像などの変更
 
-[ed3fb7](https://github.com/hikiit/hikiit.net/commit/ed3fb74a1871cabc0c2ceede99441debb75e092a) /
-[1b01a5](https://github.com/hikiit/hikiit.net/commit/1b01a51ca4972815df99a25c28802c4a44ce5155) /
-[99cabd](https://github.com/hikiit/hikiit.net/commit/99cabd58b5fa38018a10e112e93d129cef927c63) /
-[277a93](https://github.com/hikiit/hikiit.net/commit/277a931df793c27c4fa01302201a889e78e5dcb0)
+[ed3fb7](https://github.com/hikiit/hikiit.com/commit/ed3fb74a1871cabc0c2ceede99441debb75e092a) /
+[1b01a5](https://github.com/hikiit/hikiit.com/commit/1b01a51ca4972815df99a25c28802c4a44ce5155) /
+[99cabd](https://github.com/hikiit/hikiit.com/commit/99cabd58b5fa38018a10e112e93d129cef927c63) /
+[277a93](https://github.com/hikiit/hikiit.com/commit/277a931df793c27c4fa01302201a889e78e5dcb0)
 
 サンプルのままにはしておけないので変更します。
 
 ### Twitter 埋め込み用 Plugin の追加
 
-[8d3bee](https://github.com/hikiit/hikiit.net/commit/8d3beedb93eeb4b5051ca7ad119ae590c7810e7b)
+[8d3bee](https://github.com/hikiit/hikiit.com/commit/8d3beedb93eeb4b5051ca7ad119ae590c7810e7b)
 
 `gatsby-plugin-twitter` を利用して Twitter 埋め込みを可能にします。  
 https://www.gatsbyjs.com/plugins/gatsby-plugin-twitter/
@@ -85,14 +85,14 @@ https://www.gatsbyjs.com/plugins/gatsby-plugin-twitter/
 
 ### gist 埋め込み用 Plugin の追加
 
-[d14809](https://github.com/hikiit/hikiit.net/commit/d14809cb339fa97108cfca401fe96c47d5dc9ee9)
+[d14809](https://github.com/hikiit/hikiit.com/commit/d14809cb339fa97108cfca401fe96c47d5dc9ee9)
 
 `gatsby-remark-embed-gist` を利用して gist の埋め込みを可能にします。  
 https://www.gatsbyjs.com/plugins/gatsby-remark-embed-gist/
 
 ### slug の変更
 
-[ad66bc](https://github.com/hikiit/hikiit.net/commit/ad66bc041da9e6a734565571731c3292e6bc4cc6)
+[ad66bc](https://github.com/hikiit/hikiit.com/commit/ad66bc041da9e6a734565571731c3292e6bc4cc6)
 
 記事ごとの URL を変更します。ここは好みですね。
 
@@ -101,20 +101,20 @@ https://www.gatsbyjs.com/plugins/gatsby-remark-embed-gist/
 
 ### ページ幅の変更
 
-[00ece2](https://github.com/hikiit/hikiit.net/commit/00ece24c255b1ac88988c6210dc255fe7dd7b866)
+[00ece2](https://github.com/hikiit/hikiit.com/commit/00ece24c255b1ac88988c6210dc255fe7dd7b866)
 
 コードを書くには少し幅が狭いので変更します。
 
 ### Google Analytics の導入
 
-[1a2feb](https://github.com/hikiit/hikiit.net/commit/1a2feb95078e1d288ef578026d1830cda54192fc)
+[1a2feb](https://github.com/hikiit/hikiit.com/commit/1a2feb95078e1d288ef578026d1830cda54192fc)
 
 いずれ必要になると思うので導入します。
 
 ### フォントの変更
 
-[06c656](https://github.com/hikiit/hikiit.net/commit/06c65647efea215cfb58d51c750dc3881a263066) /
-[b0c36e](https://github.com/hikiit/hikiit.net/commit/b0c36eb89fda9d19672bcb65a9c3d575d0446587)
+[06c656](https://github.com/hikiit/hikiit.com/commit/06c65647efea215cfb58d51c750dc3881a263066) /
+[b0c36e](https://github.com/hikiit/hikiit.com/commit/b0c36eb89fda9d19672bcb65a9c3d575d0446587)
 
 typography を用いて Google Fonts を利用したり、フォントサイズを変更してブログの見た目を整えました。
 

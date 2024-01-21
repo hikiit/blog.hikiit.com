@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `hikiit.net`,
+    title: `hikiit.com`,
     author: {
       name: `hikiit`,
       summary: `engineer`,
     },
     description: `技術ブログ`,
-    siteUrl: `https://hikiit.net`,
+    siteUrl: `https://hikiit.com`,
     social: {
       twitter: `hikiit18`,
       github: `hikiit`,
