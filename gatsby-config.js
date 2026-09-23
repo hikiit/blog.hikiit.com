@@ -142,6 +142,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        // Fundlog の紹介ページは直リンク専用（一覧・サイトマップに載せない）
+        excludes: [`/fundlog/`, `/fundlog/**`],
+      },
+    },
   ],
 }
