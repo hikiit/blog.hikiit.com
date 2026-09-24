@@ -1,0 +1,255 @@
+/* Fundlog 紹介ページ。アプリの視覚仕様（docs/mock.html の配色・OS 標準書体・
+   tabular-nums・帳票注記）に合わせ、ブログの書体・幅から切り離す。 */
+
+.fl {
+  --fl-paper: #edf0f3;
+  --fl-card: #ffffff;
+  --fl-ink: #17222d;
+  --fl-brand: #1c2b3a;
+  --fl-sub: #5b6b7a;
+  --fl-hair: #d9dfe5;
+  --fl-gold: #a9853b;
+  --fl-soft: #f4f6f8;
+  font-family: system-ui, -apple-system, "Helvetica Neue", "Hiragino Sans",
+    "Noto Sans JP", sans-serif;
+  font-feature-settings: "tnum";
+  color: var(--fl-ink);
+  background: var(--fl-paper);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fl a {
+  color: inherit;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.fl-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ヘッダ */
+.fl-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 28px 0 0;
+}
+
+.fl-wordmark {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--fl-brand);
+}
+
+.fl-wordmark span {
+  color: var(--fl-gold);
+}
+
+.fl-header-nav {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: var(--fl-sub);
+}
+
+.fl-header-nav a:hover {
+  color: var(--fl-ink);
+}
+
+/* ヒーロー */
+.fl-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+  padding: 72px 0 40px;
+}
+
+.fl-eyebrow {
+  font-size: 13px;
+  color: var(--fl-sub);
+  letter-spacing: 0.04em;
+  margin: 0 0 16px;
+}
+
+.fl-hero h1 {
+  font-size: 40px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--fl-brand);
+  margin: 0 0 24px;
+}
+
+.fl-lead {
+  font-size: 17px;
+  color: var(--fl-ink);
+  margin: 0 0 28px;
+  max-width: 34em;
+}
+
+.fl-status {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--fl-sub);
+  border: 1px solid var(--fl-hair);
+  border-radius: 999px;
+  padding: 6px 14px;
+  background: var(--fl-card);
+}
+
+/* スクリーンショット */
+.fl-shot {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 12%/5.5%;
+  overflow: hidden;
+  border: 1px solid var(--fl-hair);
+  background: var(--fl-card);
+  box-shadow: 0 24px 48px -28px rgba(23, 34, 45, 0.35);
+}
+
+.fl-shot--hero {
+  max-width: 360px;
+}
+
+.fl-shot .gatsby-image-wrapper {
+  display: block;
+}
+
+/* 機能セクション */
+.fl-sections {
+  padding: 24px 0 56px;
+}
+
+.fl-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  padding: 56px 0;
+  border-top: 1px solid var(--fl-hair);
+}
+
+.fl-section--flip .fl-section-text {
+  order: 2;
+}
+
+.fl-section-text {
+  max-width: 30em;
+}
+
+.fl-section-text h2 {
+  font-size: 26px;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  color: var(--fl-brand);
+  margin: 0 0 16px;
+}
+
+.fl-section-text p {
+  font-size: 16px;
+  margin: 0 0 14px;
+  line-height: 1.8;
+}
+
+.fl-section-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* 帳票注記（アプリと同じ「※」＋左罫線） */
+.fl-note {
+  font-size: 14px;
+  color: var(--fl-sub);
+  border-left: 2px solid var(--fl-gold);
+  padding: 2px 0 2px 14px;
+  margin: 20px 0 0;
+  line-height: 1.7;
+}
+
+/* 定義行（左に項目、右に本文、罫線） */
+.fl-facts {
+  margin: 8px 0 0;
+  border-top: 1px solid var(--fl-hair);
+}
+
+.fl-facts > div {
+  display: grid;
+  grid-template-columns: 9em 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--fl-hair);
+  font-size: 15px;
+}
+
+.fl-facts dt {
+  color: var(--fl-sub);
+  margin: 0;
+}
+
+.fl-facts dd {
+  margin: 0;
+}
+
+/* フッター */
+.fl-footer {
+  border-top: 1px solid var(--fl-hair);
+  padding: 32px 0 48px;
+  font-size: 13px;
+  color: var(--fl-sub);
+}
+
+.fl-footer .fl-note {
+  margin: 0 0 24px;
+}
+
+.fl-footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.fl-footer a:hover {
+  color: var(--fl-ink);
+}
+
+@media (max-width: 760px) {
+  .fl-wrap {
+    padding: 0 16px;
+  }
+  .fl-hero {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding: 48px 0 24px;
+  }
+  .fl-hero h1 {
+    font-size: 30px;
+  }
+  .fl-section {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 40px 0;
+  }
+  .fl-section--flip .fl-section-text {
+    order: 0;
+  }
+  .fl-section-text h2 {
+    font-size: 22px;
+  }
+  .fl-shot,
+  .fl-shot--hero {
+    max-width: 280px;
+  }
+  .fl-facts > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
