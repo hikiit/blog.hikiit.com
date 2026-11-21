@@ -1,0 +1,400 @@
+/* 探検日和（Footloot）紹介ページ。アプリの見た目（共通パレットの色、DotGothic16、
+   角の丸くない窓と札、補間しないドット絵）に合わせ、ブログの書体・幅から切り離す。
+   文字は 16px とその整数倍だけを使う（DotGothic16 は 16px の格子の書体で、
+   ほかの大きさではドットがそろわない）。 */
+
+.ftl {
+  --ftl-bg: #1b1730;
+  --ftl-night: #181425;
+  --ftl-navy: #262b44;
+  --ftl-slate: #3a4466;
+  --ftl-mist: #8b9bb4;
+  --ftl-fg: #ead4aa;
+  --ftl-muted: #a7b0c8;
+  --ftl-gold: #feae34;
+  --ftl-leaf: #63c74d;
+  --ftl-ink: #3e2731;
+  --ftl-wood: #b86f50;
+  --ftl-bark: #733e39;
+  font-family: "DotGothic16", "Hiragino Sans", "Noto Sans JP", system-ui,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--ftl-fg);
+  background: var(--ftl-bg);
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: anywhere;
+}
+
+.ftl a {
+  color: inherit;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.ftl h1,
+.ftl h2,
+.ftl h3,
+.ftl p,
+.ftl ul,
+.ftl li,
+.ftl dl,
+.ftl figure,
+.ftl blockquote {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+}
+
+.ftl img {
+  display: block;
+  margin: 0;
+}
+
+.ftl-wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ヘッダ */
+.ftl-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 0 0;
+}
+
+.ftl-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.ftl-wordmark img {
+  width: 32px;
+  height: 32px;
+  outline: 2px solid var(--ftl-slate);
+}
+
+.ftl-header-nav {
+  display: flex;
+  gap: 24px;
+  color: var(--ftl-muted);
+}
+
+.ftl-header-nav a:hover,
+.ftl-footer a:hover {
+  color: var(--ftl-fg);
+}
+
+/* ヒーロー */
+.ftl-hero {
+  display: grid;
+  grid-template-columns: 1fr 402px;
+  gap: 64px;
+  align-items: center;
+  padding: 64px 0 72px;
+}
+
+.ftl-eyebrow {
+  color: var(--ftl-gold);
+}
+
+.ftl .ftl-hero h1 {
+  font-size: 48px;
+  line-height: 1.34;
+  margin: 16px 0 24px;
+}
+
+.ftl .ftl-lead {
+  max-width: 30em;
+  margin-bottom: 32px;
+}
+
+/* アプリの札（濃い地に、明るい縁） */
+.ftl-status {
+  display: inline-block;
+  padding: 6px 14px;
+  color: var(--ftl-fg);
+  background: var(--ftl-navy);
+  border: 2px solid var(--ftl-mist);
+  box-shadow: 0 0 0 2px var(--ftl-night);
+}
+
+/* 電話の画面（幅 402pt を、そのままの大きさで）。枠は box-shadow で描き、大きさに入れない */
+.ftl-phone {
+  width: 100%;
+  max-width: 402px;
+  margin: 0 auto;
+  box-shadow: 0 0 0 2px var(--ftl-mist), 0 0 0 4px var(--ftl-night),
+    12px 12px 0 4px rgba(0, 0, 0, 0.35);
+  background: var(--ftl-night);
+}
+
+.ftl-phone img,
+.ftl-wide img,
+.ftl-thumb img,
+.ftl-worlds img {
+  width: 100%;
+  height: auto;
+}
+
+/* 機能のまとまり（文と電話の画面） */
+.ftl-section {
+  display: grid;
+  grid-template-columns: 1fr 402px;
+  gap: 64px;
+  align-items: center;
+  padding: 72px 0;
+  border-top: 2px solid var(--ftl-slate);
+}
+
+.ftl-section--flip {
+  grid-template-columns: 402px 1fr;
+}
+
+.ftl-section--flip .ftl-section-text {
+  order: 2;
+}
+
+.ftl .ftl-section-text h2,
+.ftl .ftl-block h2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 32px;
+  line-height: 1.375;
+  margin-bottom: 24px;
+}
+
+.ftl .ftl-icon {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  margin-top: 6px;
+}
+
+/* 見出しの折り返しのまとまり */
+.ftl-phrase {
+  display: inline-block;
+}
+
+.ftl .ftl-section-text p {
+  margin-bottom: 16px;
+}
+
+.ftl .ftl-section-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* 日記（アプリの紙の窓：紙の色の地に、濃い茶と木の色の縁） */
+.ftl .ftl-diary {
+  margin-top: 24px;
+  padding: 16px 18px 18px;
+  color: var(--ftl-ink);
+  background: var(--ftl-fg);
+  border: 2px solid var(--ftl-bark);
+  box-shadow: 0 0 0 2px var(--ftl-wood), 0 0 0 4px var(--ftl-night);
+}
+
+.ftl .ftl-diary figcaption {
+  color: var(--ftl-bark);
+  margin-bottom: 8px;
+}
+
+/* 定義の行（左に項目、右に本文） */
+.ftl .ftl-facts {
+  margin-top: 24px;
+  border-top: 2px solid var(--ftl-slate);
+}
+
+.ftl-facts > div {
+  display: grid;
+  grid-template-columns: 11em 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 2px solid var(--ftl-slate);
+}
+
+.ftl-facts dt {
+  color: var(--ftl-muted);
+  margin: 0;
+}
+
+.ftl-facts dd {
+  margin: 0;
+}
+
+/* 幅いっぱいのまとまり（5つの世界、iPhone Duo、こまかいこと） */
+.ftl-block {
+  padding: 72px 0;
+  border-top: 2px solid var(--ftl-slate);
+}
+
+.ftl .ftl-block-lead {
+  max-width: 40em;
+  margin-bottom: 16px;
+}
+
+/* 5つの世界（辺境の景色の帯 216×60 ドットを、1ドット 2px で） */
+.ftl .ftl-worlds {
+  list-style: none;
+  margin-top: 32px;
+  display: grid;
+  gap: 24px;
+}
+
+.ftl .ftl-worlds li {
+  display: grid;
+  grid-template-columns: 432px 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.ftl-worlds img {
+  box-shadow: 0 0 0 2px var(--ftl-mist), 0 0 0 4px var(--ftl-night);
+}
+
+.ftl .ftl-worlds h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+  font-size: 32px;
+  line-height: 1.375;
+  margin-bottom: 4px;
+}
+
+.ftl-tag {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 8px;
+  color: var(--ftl-night);
+  background: var(--ftl-leaf);
+}
+
+.ftl .ftl-worlds-steps {
+  color: var(--ftl-muted);
+}
+
+/* iPhone Duo */
+.ftl .ftl-wide {
+  max-width: 951px;
+  margin: 40px auto 0;
+}
+
+.ftl-wide img,
+.ftl-thumb img {
+  box-shadow: 0 0 0 2px var(--ftl-mist), 0 0 0 4px var(--ftl-night),
+    12px 12px 0 4px rgba(0, 0, 0, 0.35);
+}
+
+.ftl .ftl-wide figcaption,
+.ftl .ftl-thumb figcaption {
+  margin-top: 16px;
+  color: var(--ftl-muted);
+  text-align: center;
+}
+
+.ftl-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px 56px;
+  margin-top: 48px;
+}
+
+/* 外側（466×678pt）と内側・縦長（669×951pt）を、半分の大きさで */
+.ftl .ftl-thumb {
+  max-width: 100%;
+}
+
+.ftl .ftl-thumb--duo-outer {
+  width: 233px;
+}
+
+.ftl .ftl-thumb--duo-tall {
+  width: 334.5px;
+}
+
+/* フッター */
+.ftl-footer {
+  border-top: 2px solid var(--ftl-slate);
+  padding: 32px 0 48px;
+  color: var(--ftl-muted);
+}
+
+.ftl .ftl-note {
+  padding-left: 14px;
+  border-left: 2px solid var(--ftl-gold);
+  margin-bottom: 12px;
+}
+
+.ftl-footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+@media (max-width: 960px) {
+  .ftl-hero,
+  .ftl-section,
+  .ftl-section--flip {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .ftl-hero {
+    padding: 48px 0 56px;
+  }
+  .ftl-section,
+  .ftl-block {
+    padding: 56px 0;
+  }
+  .ftl-section--flip .ftl-section-text {
+    order: 0;
+  }
+  .ftl .ftl-worlds li {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .ftl-worlds img {
+    max-width: 432px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ftl-wrap {
+    padding: 0 16px;
+  }
+  .ftl-wordmark {
+    font-size: 16px;
+  }
+  .ftl-header-nav {
+    gap: 16px;
+  }
+  .ftl .ftl-hero h1 {
+    font-size: 32px;
+  }
+  .ftl-facts > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .ftl-phone,
+  .ftl-wide img,
+  .ftl-thumb img {
+    box-shadow: 0 0 0 2px var(--ftl-mist), 0 0 0 4px var(--ftl-night),
+      8px 8px 0 4px rgba(0, 0, 0, 0.35);
+  }
+}

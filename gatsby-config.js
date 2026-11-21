@@ -145,8 +145,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        // Fundlog の紹介ページは直リンク専用（一覧・サイトマップに載せない）
-        excludes: [`/fundlog/`, `/fundlog/**`],
+        // Fundlog・探検日和（Footloot）の紹介ページは直リンク専用（一覧・サイトマップに載せない）
+        excludes: [`/fundlog/`, `/fundlog/**`, `/footloot/`, `/footloot/**`],
       },
     },
   ],
