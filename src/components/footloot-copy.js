@@ -12,7 +12,7 @@ export const ja = {
   blog: "hikiit.com",
   eyebrow: "歩数で宝探し・放置RPG ｜ iPhone・Android",
   headline: ["いつもの歩数が、", "宝探しになる。"],
-  lead: "行き先を選んで、あとはいつもどおり歩くだけ。あなたが歩いた分だけ探検家が進み、お宝と1本の日記を持って帰ってきます。歩数は端末の中だけで使い、外へは送りません。",
+  lead: "行き先を選んで、あとはいつもどおり歩くだけ。あなたが歩いた分だけ探検家が進み、お宝と1本の日記を持って帰ってきます。",
   status: "App Store・Google Play で公開準備中",
   heroAlt:
     "探検日和のホーム画面。ベースキャンプに立つ探検家と「次はどこへ行こう？」の窓",
@@ -34,7 +34,7 @@ export const ja = {
       alt: "遠征中のホーム画面。苔むす森の小径を歩く探検家と、1,240歩／2,000歩の進み具合",
       body: [
         "通勤でも、買い物でも、犬の散歩でも。あなたが歩いた歩数だけ、探検家が道を進みます。アプリを開いたままにしておく必要はありません。",
-        "歩数は、iPhone ではヘルスケア、Android ではヘルスコネクトから読み取ります。手で入力された歩数は数えません。奥の段には期限つきの挑戦もあり、何日かに分けて歩く計画が要ります。",
+        "歩数は、iPhone ではヘルスケア、Android ではヘルスコネクトから読み取ります。奥の段には期限つきの挑戦もあり、何日かに分けて歩く計画が要ります。",
       ],
     },
     {
@@ -64,7 +64,7 @@ export const ja = {
     {
       image: "paywall",
       icon: "crown",
-      heading: ["広告なし、ガチャなし。", "課金は買い切りだけ"],
+      heading: ["広告なし。", "課金は買い切りだけ"],
       alt: "封じの洞窟の購入画面。世界の絵、必要な歩数と期限の表、★4・★5の影絵、買い切りのボタン",
       body: [
         "苔むす森は、ずっと無料で遊べます。ほかの4つの世界は、世界ごとの買い切り。サブスクリプションはありません。",
@@ -74,7 +74,6 @@ export const ja = {
         ["世界（洞窟・遺跡・湖・都）", "1つ 800円、4つのセットで 2,400円"],
         ["自動再出発", "800円。帰還したら、同じ段へ自動で出発し続けます"],
         ["広告", "なし"],
-        ["有料のガチャ", "なし"],
       ],
     },
   ],
@@ -184,7 +183,7 @@ export const en = {
   blog: "hikiit.com",
   eyebrow: "Step Counter Treasure Hunt | iPhone, Android",
   headline: "Your everyday steps become a treasure hunt.",
-  lead: "Pick a destination, then just walk the way you always do. Your explorer travels as far as you do, and comes home with treasure and a diary entry. Your step data stays on your phone and is never sent anywhere.",
+  lead: "Pick a destination, then just walk the way you always do. Your explorer travels as far as you do, and comes home with treasure and a diary entry.",
   status: "Coming to the App Store and Google Play",
   heroAlt:
     'Footloot home screen: the explorer at base camp and a window asking "Where to next?"',
@@ -206,7 +205,7 @@ export const en = {
       alt: "Home screen during an expedition: the explorer on the Mossy Forest Path, with progress at 1,240 of 2,000 steps",
       body: [
         "The commute, the shopping, the dog walk. Your explorer moves exactly as many steps as you do. There is no need to keep the app open.",
-        "Steps are read from the Health app on iPhone and from Health Connect on Android. Manually entered steps do not count. Some deeper tiers have a time limit, so they take a little planning across several days.",
+        "Steps are read from the Health app on iPhone and from Health Connect on Android. Some deeper tiers have a time limit, so they take a little planning across several days.",
       ],
     },
     {
@@ -236,7 +235,7 @@ export const en = {
     {
       image: "paywall",
       icon: "crown",
-      heading: "No ads, no gacha. One-time purchases only",
+      heading: "No ads. One-time purchases only",
       alt: "Purchase screen for the Sealed Cavern: art of the world, a table of steps and time limits, silhouettes of its ★4 and ★5 treasures, and a one-time purchase button",
       body: [
         "The Mossy Forest is free forever. The other four worlds are one-time purchases, one world at a time. There is no subscription.",
@@ -252,7 +251,6 @@ export const en = {
           "US$5.99. Your explorer sets out again for the same tier after each return",
         ],
         ["Ads", "None"],
-        ["Paid gacha", "None"],
       ],
     },
   ],
